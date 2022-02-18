@@ -1,0 +1,229 @@
+/* Переменные */
+:root {
+  /* Основной цвет фона */
+  --main-bg-color: #ffffff;
+
+  /* Дополнительный цвет фона*/
+  --secondary-light-bg-color: #f5f4fa;
+  --secondary-dark-bg-color: #2f303a;
+  --secondary-blue-bg-color: #2196f3;
+  --hover-btn-color: #188ce8;
+
+  /* Цвета текста */
+  /* Дополнительный цвет логотипа */
+  --secondary-logo-color: #000000;
+  /* Цвет текста заголовков */
+  --title-font-color: #212121;
+  /*Основной цвет текста */
+  --text-font-color: #757575;
+  /*Основной цвет текста */
+  --white-font-color: #ffffff;
+  /*Ховер цвет текста */
+  --blue-font-color: #2196f3;
+  /*Ховер цвет текста */
+  --footer-contact-font-color: rgba(255, 255, 255, 0, 6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--text-font-color);
+  background-color: var(--main-bg-color);
+}
+
+/* ДЛЯ СТРАНИЦЫ СТУДИЯ */
+
+/* Шапка сайта */
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-font-color);
+  text-decoration: none;
+}
+.header-logo-secondary {
+  color: var(--secondary-logo-color);
+}
+.header-list {
+  list-style: none;
+}
+.header-item .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-font-color);
+  text-decoration: none;
+}
+.header-item .link:hover,
+.header-item .link:focus {
+  color: var(--blue-font-color);
+}
+.header-contact-list {
+  list-style: none;
+}
+.header-contact-list .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-font-color);
+  text-decoration: none;
+}
+.header-contact-list .link:hover,
+.header-contact-list .link:focus {
+  color: var(--blue-font-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--secondary-dark-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-font-color);
+}
+.hero-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--white-font-color);
+  background-color: var(--secondary-blue-bg-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-btn-color);
+}
+
+/* Наши преимущества */
+.advantage-list {
+  list-style: none;
+}
+.advantage-title {
+  visibility: hidden;
+}
+.advantage-subtitle {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-font-color);
+}
+.advantage-text {
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.business-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-font-color);
+}
+.business-list {
+  list-style: none;
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--secondary-light-bg-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-font-color);
+}
+.team-list {
+  list-style: none;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-font-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Футер */
+.footer {
+  background-color: var(--secondary-dark-bg-color);
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-font-color);
+  text-decoration: none;
+}
+.footer-logo-secondary {
+  color: var(--white-font-color);
+}
+
+.footer-list {
+  list-style: none;
+}
+.footer-list .link {
+  line-height: 1.71;
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+.footer-adress {
+  line-height: 1.71;
+  font-style: normal;
+  color: var(--white-font-color);
+}
+
+/* ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
+
+/* Наши работы */
+.portfolio-title {
+  visibility: hidden;
+}
+
+.service-list {
+  list-style: none;
+}
+.service-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-font-color);
+  background-color: var(--secondary-light-bg-color);
+  cursor: pointer;
+}
+.service-button:hover,
+.service-button:focus {
+  color: var(--white-font-color);
+  background-color: var(--secondary-blue-bg-color);
+}
+
+.project-list {
+  list-style: none;
+}
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-font-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-font-color);
+}
